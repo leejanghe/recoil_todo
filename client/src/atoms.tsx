@@ -19,7 +19,7 @@ export const categoryState = atom<string>({
 export const categoriesState = atom<string[]>({
   key: "categoriesState",
   default: defaultCategory,
-  //   effects_UNSTABLE: [persistAtom],
+  effects_UNSTABLE: [persistAtom],
 });
 
 export const toDoState = atom<IToDo[]>({
