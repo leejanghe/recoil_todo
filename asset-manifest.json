@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/recoil_todo/static/js/main.e10b8bd1.js",
+    "main.js": "/recoil_todo/static/js/main.c8d56c98.js",
     "index.html": "/recoil_todo/index.html",
-    "main.e10b8bd1.js.map": "/recoil_todo/static/js/main.e10b8bd1.js.map"
+    "main.c8d56c98.js.map": "/recoil_todo/static/js/main.c8d56c98.js.map"
   },
   "entrypoints": [
-    "static/js/main.e10b8bd1.js"
+    "static/js/main.c8d56c98.js"
   ]
 }
