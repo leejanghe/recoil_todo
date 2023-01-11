@@ -23,6 +23,12 @@ const ListForm = styled.div`
       margin-left: 5px;
       cursor: pointer;
     }
+    > div {
+      .deletebtn {
+        background-color: red;
+        color: #fff;
+      }
+    }
     > span {
       margin-right: 10px;
       border: 1px solid black;
@@ -73,7 +79,7 @@ function ToDo({ text, category, id }: IToDo) {
                 {category}
               </button>
             ))}
-          <button name="delete" onClick={onDeleteBtn}>
+          <button className="deletebtn" name="delete" onClick={onDeleteBtn}>
             delete
           </button>
         </div>

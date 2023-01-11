@@ -36,7 +36,6 @@ function CreateCategory() {
   const [categories, setCategories] = useRecoilState(categoriesState);
   const { register, handleSubmit, setValue } = useForm<ICategories>();
   const handleAddCategory = ({ addCategories }: ICategories) => {
-    console.log(addCategories, categories);
     const newCategories = [...categories, addCategories];
     setCategories(newCategories);
     setValue("addCategories", "");
